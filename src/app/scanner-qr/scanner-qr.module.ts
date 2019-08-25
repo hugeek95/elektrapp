@@ -9,7 +9,7 @@ import { ScannerQrPage } from './scanner-qr.page';
 
 const routes: Routes = [
   {
-    path: 'qr',
+    path: '',
     component: ScannerQrPage
   }
 ];
@@ -19,9 +19,8 @@ const routes: Routes = [
     CommonModule,
     FormsModule,
     IonicModule,
-    ScannerQrPage,
     RouterModule.forChild(routes)
   ],
   declarations: [ScannerQrPage]
 })
-export class ScannerQrPageModule { }
+export class ScannerQrPageModule {}
