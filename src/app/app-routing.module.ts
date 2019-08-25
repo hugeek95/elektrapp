@@ -5,7 +5,8 @@ const routes: Routes = [
   {
     path: '',
     loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
-  }
+  },
+  { path: 'scanner-qr', loadChildren: './scanner-qr/scanner-qr.module#ScannerQrPageModule' }
 ];
 @NgModule({
   imports: [

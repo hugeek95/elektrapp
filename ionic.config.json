@@ -1,5 +1,7 @@
 {
   "name": "elektra",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
